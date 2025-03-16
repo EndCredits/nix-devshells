@@ -16,8 +16,12 @@
       cpio
       dos2unix
       gcc
-      libgcc.libgcc
-      binutils
+      gcc-unwrapped
+      gcc-unwrapped.lib
+      gcc-unwrapped.libgcc
+      gcc-unwrapped.libgcc.libgcc
+      binutils-unwrapped-all-targets
+      binutils-unwrapped-all-targets.lib
       fish
       flex
       fontconfig
@@ -49,6 +53,8 @@
       glibc
       glibc.static
       glibc.dev
+      glibc_multi
+      glibc_multi.dev
       squashfsTools
       stdenv.cc
       stdenv.cc.cc
